@@ -1,0 +1,6 @@
+/.vscode/*
+/.idea/*
+/.husky/*
+
+/public/*
+/dist/*
