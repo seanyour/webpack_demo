@@ -1,6 +1,2 @@
-/.vscode/*
-/.idea/*
-/.husky/*
-
-/public/*
-/dist/*
+node_modules
+*.d.ts

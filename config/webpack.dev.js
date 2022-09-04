@@ -20,11 +20,11 @@ module.exports = {
         rules: [
             {
                 test: /\.css$/,
-                use: ["style-loader","css-loader"]
+                use: ["style-loader","css-loader","postcss-loader"]
             },
             {
                 test: /\.s[ac]ss$/i,
-                use: ["style-loader","css-loader",'sass-loader']
+                use: ["style-loader","css-loader","postcss-loader","sass-loader"]
             },
             {
                 test: /\.(png|jpe?g|gif|svg?)$/,
@@ -35,7 +35,7 @@ module.exports = {
                     }
                 },
                 generator: {
-                    filename: 'images/[hash:10][ext][query]'
+                    filename: 'images/[hash:8   ][ext][query]'
                 }
             },
             {
